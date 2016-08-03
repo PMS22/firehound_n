@@ -115,6 +115,9 @@
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">64</integer>
 
+    <!-- HW Keys on/off -->
+    <bool name="config_hwKeysPref">true</bool>
+
     <!-- Control the behavior when the user long presses the home button.
             0 - Nothing
             1 - Menu key
