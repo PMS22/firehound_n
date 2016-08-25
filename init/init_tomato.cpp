@@ -68,6 +68,7 @@ void init_target_properties()
     property_set("ro.sf.lcd_density", density);
     if (display_density == 480) {
         property_set("ro.product.model", "YU5510");
+        property_set("ro.product.first_api_level", "21");
         property_set("dalvik.vm.heapstartsize", "16m");
         property_set("dalvik.vm.heapgrowthlimit", "192m");
         property_set("dalvik.vm.heapsize", "512m");
@@ -76,6 +77,7 @@ void init_target_properties()
         property_set("dalvik.vm.heapmaxfree", "8m");
     } else {
         property_set("ro.product.model", "AO5510");
+        property_set("ro.product.first_api_level", "19");
         property_set("dalvik.vm.heapstartsize", "8m");
         property_set("dalvik.vm.heapgrowthlimit", "192m");
         property_set("dalvik.vm.heapsize", "512m");
