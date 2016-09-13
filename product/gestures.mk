@@ -1,4 +1,4 @@
 # Gestures
-PRODUCT_PACKAGES += \
-    ConfigPanel \
-    com.cyanogenmod.keyhandler
+#PRODUCT_PACKAGES += \
+#    ConfigPanel \
+#    com.cyanogenmod.keyhandler
